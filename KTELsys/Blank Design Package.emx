@@ -557,7 +557,9 @@
         <packagedElement xmi:type="uml:Class" xmi:id="_FelCwBBCEeG3SNomViIQOQ" name="ItinenaryJpaDAO" clientDependency="_b_3eYBBCEeG3SNomViIQOQ"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_i3jWoBA8EeGUjr05PXmftg" name="DAOFactory" isAbstract="true"/>
         <packagedElement xmi:type="uml:Interface" xmi:id="_NC3s4BA9EeGUjr05PXmftg" name="ReservationDAO"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_BhfCcBA_EeGUjr05PXmftg" name="ReservationMemoryDAO" clientDependency="_fl7tgBA_EeGUjr05PXmftg"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_BhfCcBA_EeGUjr05PXmftg" name="ReservationMemoryDAO" clientDependency="_fl7tgBA_EeGUjr05PXmftg">
+          <ownedOperation xmi:id="__J-w0BBEEeGUjr05PXmftg" name="findAllReservations"/>
+        </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_GyLgABA_EeGUjr05PXmftg" name="ReservationJpaDAO" clientDependency="_gZq3kBA_EeGUjr05PXmftg"/>
         <packagedElement xmi:type="uml:Realization" xmi:id="_fl7tgBA_EeGUjr05PXmftg" client="_BhfCcBA_EeGUjr05PXmftg">
           <supplier xmi:type="uml:Class" href="Blank%20Analysis%20Model.emx#_ho6TCQ6sEeGODZpGKWNkyg?Analysis%20Model/Reservation?"/>
