@@ -392,7 +392,7 @@
             </edges>
           </contents>
         </eAnnotations>
-        <packagedElement xmi:type="uml:Class" xmi:id="_G2ClMArBEeGr4JdFygsuTA" name="Itinerary" clientDependency="_hurl4BBDEeG3SNomViIQOQ">
+        <packagedElement xmi:type="uml:Class" xmi:id="_G2ClMArBEeGr4JdFygsuTA" name="Itinenary" clientDependency="_hurl4BBDEeG3SNomViIQOQ">
           <eAnnotations xmi:id="_G2DMQArBEeGr4JdFygsuTA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
           <ownedAttribute xmi:id="_G2DMRwrBEeGr4JdFygsuTA" name="date" visibility="private">
             <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6BuSQddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/sql/Date?"/>
@@ -1089,6 +1089,19 @@
           </edges>
         </contents>
         <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_AiPMEA63EeGODZpGKWNkyg" type="Class" name="Participants">
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_BQwFgBBEEeG3SNomViIQOQ" element="_i3jWoBA8EeGUjr05PXmftg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_BQwskBBEEeG3SNomViIQOQ" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_BQwskRBEEeG3SNomViIQOQ" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_BQxToBBEEeG3SNomViIQOQ" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_BQxToRBEEeG3SNomViIQOQ" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_BQxTohBEEeG3SNomViIQOQ" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_BQx6sBBEEeG3SNomViIQOQ" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_BQx6sRBEEeG3SNomViIQOQ" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_BQx6shBEEeG3SNomViIQOQ" visible="false" type="SignalCompartment"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_BQx6sxBEEeG3SNomViIQOQ" visible="false" type="StructureCompartment"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BQwFgRBEEeG3SNomViIQOQ" x="3432" y="1716"/>
+          </children>
           <element xsi:nil="true"/>
         </contents>
       </eAnnotations>
