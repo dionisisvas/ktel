@@ -530,7 +530,11 @@
           </contents>
         </eAnnotations>
         <packagedElement xmi:type="uml:Class" xmi:id="_OA_IsBBCEeG3SNomViIQOQ" name="SearchItinenaryService" clientDependency="_RyZk0BBCEeG3SNomViIQOQ _1X_AYBBGEeG3SNomViIQOQ _15RIgBBGEeG3SNomViIQOQ _AvBxIBBHEeG3SNomViIQOQ"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_Y9Im8A6yEeGODZpGKWNkyg" name="ReservationService" clientDependency="_aF5JUA6zEeGODZpGKWNkyg _aL84cBA8EeGUjr05PXmftg _bAnPkBA8EeGUjr05PXmftg _bgQY8BA8EeGUjr05PXmftg _9sKBkBA8EeGUjr05PXmftg _Wg4fcBA9EeGUjr05PXmftg"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Y9Im8A6yEeGODZpGKWNkyg" name="ReservationService" clientDependency="_aF5JUA6zEeGODZpGKWNkyg _aL84cBA8EeGUjr05PXmftg _bAnPkBA8EeGUjr05PXmftg _bgQY8BA8EeGUjr05PXmftg _9sKBkBA8EeGUjr05PXmftg _Wg4fcBA9EeGUjr05PXmftg">
+          <ownedOperation xmi:id="_HkgJQBBJEeGUjr05PXmftg" name="getReservedSeats"/>
+          <ownedOperation xmi:id="_H9eC4BBJEeGUjr05PXmftg" name="getItinerary"/>
+          <ownedOperation xmi:id="_QR0esBBJEeGUjr05PXmftg" name="getreservations"/>
+        </packagedElement>
         <packagedElement xmi:type="uml:Realization" xmi:id="_aF5JUA6zEeGODZpGKWNkyg" client="_Y9Im8A6yEeGODZpGKWNkyg">
           <supplier xmi:type="uml:Class" href="Blank%20Analysis%20Model.emx#_ho6TJQ6sEeGODZpGKWNkyg?Analysis%20Model/SeatReservationController?"/>
         </packagedElement>
@@ -559,8 +563,12 @@
         <packagedElement xmi:type="uml:Interface" xmi:id="_s3e-8BBGEeG3SNomViIQOQ" name="IntinenaryDAO"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_-SxjYBBBEeG3SNomViIQOQ" name="ItinenaryMemoryDAO" clientDependency="_SR91sBBCEeG3SNomViIQOQ"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_FelCwBBCEeG3SNomViIQOQ" name="ItinenaryJpaDAO" clientDependency="_b_3eYBBCEeG3SNomViIQOQ"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_i3jWoBA8EeGUjr05PXmftg" name="DAOFactory" isAbstract="true"/>
-        <packagedElement xmi:type="uml:Interface" xmi:id="_NC3s4BA9EeGUjr05PXmftg" name="ReservationDAO"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_i3jWoBA8EeGUjr05PXmftg" name="DAOFactory" isAbstract="true">
+          <ownedOperation xmi:id="_D6R6QBBJEeGUjr05PXmftg" name="getInstance"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_NC3s4BA9EeGUjr05PXmftg" name="ReservationDAO">
+          <ownedOperation xmi:id="_W5fWQBBJEeGUjr05PXmftg" name="findAllReservations"/>
+        </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_BhfCcBA_EeGUjr05PXmftg" name="ReservationMemoryDAO" clientDependency="_fl7tgBA_EeGUjr05PXmftg">
           <ownedOperation xmi:id="__J-w0BBEEeGUjr05PXmftg" name="findAllReservations"/>
         </packagedElement>
