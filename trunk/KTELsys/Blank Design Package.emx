@@ -567,7 +567,7 @@
           <ownedOperation xmi:id="_D6R6QBBJEeGUjr05PXmftg" name="getInstance"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Interface" xmi:id="_NC3s4BA9EeGUjr05PXmftg" name="ReservationDAO">
-          <ownedOperation xmi:id="_W5fWQBBJEeGUjr05PXmftg" name="findAllReservations"/>
+          <ownedOperation xmi:id="_W5fWQBBJEeGUjr05PXmftg" name="findAllReservations" isAbstract="true"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_BhfCcBA_EeGUjr05PXmftg" name="ReservationMemoryDAO" clientDependency="_fl7tgBA_EeGUjr05PXmftg">
           <ownedOperation xmi:id="__J-w0BBEEeGUjr05PXmftg" name="findAllReservations"/>
