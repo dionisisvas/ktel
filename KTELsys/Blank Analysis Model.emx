@@ -1440,10 +1440,6 @@
                 <children xmi:type="umlnotation:UMLShape" xmi:id="_GZ7D1gMUEeGmjtRrVvQeUA" element="_GZoI4wMUEeGmjtRrVvQeUA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                   <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GZ7D1wMUEeGmjtRrVvQeUA" x="-1" y="1453" height="1453"/>
                 </children>
-                <children xmi:type="umlnotation:UMLShape" xmi:id="_ZR9g0AMUEeGmjtRrVvQeUA" element="_ZRzv0AMUEeGmjtRrVvQeUA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
-                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZR9g0gMUEeGmjtRrVvQeUA" type="Name"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZR9g0QMUEeGmjtRrVvQeUA" x="4700" y="600" width="5026" height="1002"/>
-                </children>
                 <children xmi:type="umlnotation:UMLShape" xmi:id="_gAXSgAMUEeGmjtRrVvQeUA" element="_f_w1kQMUEeGmjtRrVvQeUA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                   <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gAXSgQMUEeGmjtRrVvQeUA" x="-1" y="1453" height="846"/>
                 </children>
@@ -1476,6 +1472,13 @@
                 </children>
                 <children xmi:type="umlnotation:UMLShape" xmi:id="_so908AMYEeGmjtRrVvQeUA" element="_snVdQwMYEeGmjtRrVvQeUA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                   <layoutConstraint xmi:type="notation:Bounds" xmi:id="_so908QMYEeGmjtRrVvQeUA" x="-1" y="1453" height="1455"/>
+                </children>
+                <children xmi:type="umlnotation:UMLShape" xmi:id="_1zji8BHDEeG0kuHW6TP9kg" element="_T9BqMAMZEeGmjtRrVvQeUA" fontName="Ubuntu" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1zji8RHDEeG0kuHW6TP9kg" x="-1" y="1453" height="1453"/>
+                </children>
+                <children xmi:type="umlnotation:UMLShape" xmi:id="_DsxgEBHFEeGAgO6EpkXGUw" element="_DsnIABHFEeGAgO6EpkXGUw" fontName="Ubuntu" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_DszVQBHFEeGAgO6EpkXGUw" type="Name"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DsxgERHFEeGAgO6EpkXGUw" x="-1" y="688"/>
                 </children>
               </children>
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_-O9C9QMSEeGmjtRrVvQeUA" type="Name"/>
@@ -1678,7 +1681,7 @@
           <end xmi:id="_eHSUNgMYEeGmjtRrVvQeUA" role="_2XHKsQMXEeGmjtRrVvQeUA"/>
         </ownedConnector>
         <lifeline xmi:id="_5_6aMAMTEeGmjtRrVvQeUA" name="ταμίας" represents="_5_6aMQMTEeGmjtRrVvQeUA" coveredBy="_GZoI4QMUEeGmjtRrVvQeUA _f_nroQMUEeGmjtRrVvQeUA _XbMhkQMWEeGmjtRrVvQeUA"/>
-        <lifeline xmi:id="_7Ze1MAMTEeGmjtRrVvQeUA" name="kratisiUI" represents="_7Ze1MQMTEeGmjtRrVvQeUA" coveredBy="_GZoI4gMUEeGmjtRrVvQeUA _GZoI4wMUEeGmjtRrVvQeUA _GZoI5AMUEeGmjtRrVvQeUA _ZRzv0AMUEeGmjtRrVvQeUA _f_w1kAMUEeGmjtRrVvQeUA _f_w1kQMUEeGmjtRrVvQeUA _f_w1kgMUEeGmjtRrVvQeUA _jR1qUQMUEeGmjtRrVvQeUA _jR1qVgMUEeGmjtRrVvQeUA _XbMhkgMWEeGmjtRrVvQeUA _XbMhkwMWEeGmjtRrVvQeUA _XbMhlAMWEeGmjtRrVvQeUA _bHAE8QMWEeGmjtRrVvQeUA _bHAE9gMWEeGmjtRrVvQeUA"/>
+        <lifeline xmi:id="_7Ze1MAMTEeGmjtRrVvQeUA" name="kratisiUI" represents="_7Ze1MQMTEeGmjtRrVvQeUA" coveredBy="_GZoI4gMUEeGmjtRrVvQeUA _GZoI4wMUEeGmjtRrVvQeUA _GZoI5AMUEeGmjtRrVvQeUA _f_w1kAMUEeGmjtRrVvQeUA _f_w1kQMUEeGmjtRrVvQeUA _f_w1kgMUEeGmjtRrVvQeUA _jR1qUQMUEeGmjtRrVvQeUA _jR1qVgMUEeGmjtRrVvQeUA _XbMhkgMWEeGmjtRrVvQeUA _XbMhkwMWEeGmjtRrVvQeUA _XbMhlAMWEeGmjtRrVvQeUA _bHAE8QMWEeGmjtRrVvQeUA _bHAE9gMWEeGmjtRrVvQeUA _DsnIABHFEeGAgO6EpkXGUw"/>
         <lifeline xmi:id="_8ExN4AMTEeGmjtRrVvQeUA" name="kratisiController" represents="_8ExN4QMTEeGmjtRrVvQeUA" coveredBy="_jR1qUgMUEeGmjtRrVvQeUA _jR1qUwMUEeGmjtRrVvQeUA _jR1qVAMUEeGmjtRrVvQeUA _purx8QMUEeGmjtRrVvQeUA _pu074QMUEeGmjtRrVvQeUA _bHAE8gMWEeGmjtRrVvQeUA _bHAE8wMWEeGmjtRrVvQeUA _bHAE9AMWEeGmjtRrVvQeUA _offwEQMWEeGmjtRrVvQeUA _offwFgMWEeGmjtRrVvQeUA _eHSUMQMYEeGmjtRrVvQeUA _snVdQQMYEeGmjtRrVvQeUA _snVdRgMYEeGmjtRrVvQeUA _T835MQMZEeGmjtRrVvQeUA _T9BqMwMZEeGmjtRrVvQeUA"/>
         <lifeline xmi:id="_8uuJ0AMTEeGmjtRrVvQeUA" name="dromologio" represents="_8u360AMTEeGmjtRrVvQeUA" coveredBy="_purx8gMUEeGmjtRrVvQeUA _purx8wMUEeGmjtRrVvQeUA _purx9AMUEeGmjtRrVvQeUA _-WdHMQMUEeGmjtRrVvQeUA _-WdHNgMUEeGmjtRrVvQeUA"/>
         <lifeline xmi:id="_-V-bgAMTEeGmjtRrVvQeUA" name="thesh" represents="_-V-bgQMTEeGmjtRrVvQeUA" coveredBy="_-WdHMgMUEeGmjtRrVvQeUA _-WdHMwMUEeGmjtRrVvQeUA _-WdHNAMUEeGmjtRrVvQeUA _offwEgMWEeGmjtRrVvQeUA _offwEwMWEeGmjtRrVvQeUA _offwFAMWEeGmjtRrVvQeUA"/>
@@ -1689,9 +1692,7 @@
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_GZoI5AMUEeGmjtRrVvQeUA" covered="_7Ze1MAMTEeGmjtRrVvQeUA" execution="_GZoI4wMUEeGmjtRrVvQeUA">
           <event xmi:type="uml:ExecutionEvent" href="RUP%20Analysis%20Model.emx#_5vripAMPEeGmjtRrVvQeUA?RUP%20Analysis%20Model/ExecutionEvent1?"/>
         </fragment>
-        <fragment xmi:type="uml:InteractionUse" xmi:id="_ZRzv0AMUEeGmjtRrVvQeUA" name="Unspecified Interaction Ref1" covered="_7Ze1MAMTEeGmjtRrVvQeUA">
-          <refersTo href="RUP%20Analysis%20Model.emx#_L8nOIAMFEeGyNfe7qOhqnw?RUP%20Analysis%20Model/Αναζήτηση%20Δρομολογίου/Αναζήτηση%20Δρομολογίου?"/>
-        </fragment>
+        <fragment xmi:type="uml:InteractionUse" xmi:id="_DsnIABHFEeGAgO6EpkXGUw" name="Unspecified Interaction Ref1" covered="_7Ze1MAMTEeGmjtRrVvQeUA" refersTo="_40FfwBCGEeGO8fJoL6C-uA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_f_nroQMUEeGmjtRrVvQeUA" covered="_5_6aMAMTEeGmjtRrVvQeUA" message="_f_nroAMUEeGmjtRrVvQeUA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_f_w1kAMUEeGmjtRrVvQeUA" covered="_7Ze1MAMTEeGmjtRrVvQeUA" message="_f_nroAMUEeGmjtRrVvQeUA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_f_w1kQMUEeGmjtRrVvQeUA" covered="_7Ze1MAMTEeGmjtRrVvQeUA" start="_f_w1kAMUEeGmjtRrVvQeUA" finish="_f_w1kgMUEeGmjtRrVvQeUA"/>
