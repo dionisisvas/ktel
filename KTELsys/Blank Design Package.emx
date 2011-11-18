@@ -65,6 +65,7 @@
       <details xmi:id="_dULtzgq-EeGr4JdFygsuTA" key="com.ibm.xtools.activities.umlBBDeploymentDiagram" value="1"/>
       <details xmi:id="_dULtzwq-EeGr4JdFygsuTA" key="com.ibm.xtools.activities.umlBBInteraction" value="1"/>
       <details xmi:id="_dULt0Aq-EeGr4JdFygsuTA" key="com.ibm.xtools.activities.umlBBCommunication" value="1"/>
+      <details xmi:id="_DpQSMBHqEeG1MJ6dPNx4oQ" key="com.ibm.xtools.transform.uml2.ejb3.ui.uireduction.activity" value="1"/>
     </eAnnotations>
     <packageImport xmi:id="_dULt0Qq-EeGr4JdFygsuTA">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -574,6 +575,35 @@
             <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_-NH2MQ6zEeGODZpGKWNkyg" type="Freeform" name="Main">
               <element xsi:nil="true"/>
             </contents>
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_cHdYYBHoEeG1MJ6dPNx4oQ" type="Class" name="Contents">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_iuk2UBHoEeG1MJ6dPNx4oQ" element="_i3jWoBA8EeGUjr05PXmftg" fontName="Ubuntu" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                <children xmi:type="notation:DecorationNode" xmi:id="_ivOWkBHoEeG1MJ6dPNx4oQ" type="ImageCompartment">
+                  <layoutConstraint xmi:type="notation:Size" xmi:id="_ivOWkRHoEeG1MJ6dPNx4oQ" width="1320" height="1320"/>
+                </children>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_ivQLwBHoEeG1MJ6dPNx4oQ" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_ivQy0BHoEeG1MJ6dPNx4oQ" type="Name"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_ivSA8BHoEeG1MJ6dPNx4oQ" type="Parent"/>
+                <children xmi:type="notation:SemanticListCompartment" xmi:id="_ivSoABHoEeG1MJ6dPNx4oQ" type="AttributeCompartment"/>
+                <children xmi:type="notation:SemanticListCompartment" xmi:id="_ivW5cBHoEeG1MJ6dPNx4oQ" type="OperationCompartment"/>
+                <children xmi:type="notation:SemanticListCompartment" xmi:id="_ivYHkBHoEeG1MJ6dPNx4oQ" visible="false" type="SignalCompartment"/>
+                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_ivZ8wBHoEeG1MJ6dPNx4oQ" visible="false" type="StructureCompartment"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iuldYBHoEeG1MJ6dPNx4oQ" x="2219" y="1268"/>
+              </children>
+              <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_tl6zUBHoEeG1MJ6dPNx4oQ" element="_tjE6sBHoEeG1MJ6dPNx4oQ" fontName="Ubuntu" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label" useClassifierShape="true">
+                <children xmi:type="notation:DecorationNode" xmi:id="_tl9PkBHoEeG1MJ6dPNx4oQ" type="ImageCompartment">
+                  <layoutConstraint xmi:type="notation:Size" xmi:id="_tl9PkRHoEeG1MJ6dPNx4oQ" width="530" height="530"/>
+                </children>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_tl92oBHoEeG1MJ6dPNx4oQ" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_tl_r0BHoEeG1MJ6dPNx4oQ" type="Kind"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_tmCvIBHoEeG1MJ6dPNx4oQ" type="Name"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_tmDWMBHoEeG1MJ6dPNx4oQ" type="Parent"/>
+                <children xmi:type="notation:SemanticListCompartment" xmi:id="_tmD9QBHoEeG1MJ6dPNx4oQ" type="AttributeCompartment"/>
+                <children xmi:type="notation:SemanticListCompartment" xmi:id="_tmGZgBHoEeG1MJ6dPNx4oQ" type="OperationCompartment"/>
+                <children xmi:type="notation:SemanticListCompartment" xmi:id="_tmHnoBHoEeG1MJ6dPNx4oQ" visible="false" type="SignalCompartment"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tl6zURHoEeG1MJ6dPNx4oQ" x="2219" y="3804"/>
+              </children>
+              <element xsi:nil="true"/>
+            </contents>
           </eAnnotations>
           <packagedElement xmi:type="uml:Interface" xmi:id="_yoIHwBHOEeGZIYaoOPN0tw" name="TicketDAO"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_TI-1wBHNEeGZIYaoOPN0tw" name="TicketMemoryDAO" clientDependency="_hCUkIBHNEeGZIYaoOPN0tw"/>
@@ -608,6 +638,16 @@
           </packagedElement>
           <packagedElement xmi:type="uml:Realization" xmi:id="_hCUkIBHNEeGZIYaoOPN0tw" client="_TI-1wBHNEeGZIYaoOPN0tw">
             <supplier xmi:type="uml:Class" href="Blank%20Analysis%20Model.emx#_ho6TWw6sEeGODZpGKWNkyg?Analysis%20Model/Ticket?"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_tjE6sBHoEeG1MJ6dPNx4oQ" name="GenericDAO">
+            <ownedTemplateSignature xmi:type="uml:RedefinableTemplateSignature" xmi:id="_XRX9wBHpEeG1MJ6dPNx4oQ" parameter="_XRYk0BHpEeG1MJ6dPNx4oQ">
+              <ownedParameter xmi:type="uml:ClassifierTemplateParameter" xmi:id="_XRYk0BHpEeG1MJ6dPNx4oQ" parameteredElement="_XRboIBHpEeG1MJ6dPNx4oQ">
+                <ownedParameteredElement xmi:type="uml:Class" xmi:id="_XRboIBHpEeG1MJ6dPNx4oQ" name="T" templateParameter="_XRYk0BHpEeG1MJ6dPNx4oQ"/>
+              </ownedParameter>
+            </ownedTemplateSignature>
+            <ownedOperation xmi:id="_aejEYBHpEeG1MJ6dPNx4oQ" name="findAll" isAbstract="true"/>
+            <ownedOperation xmi:id="_cGw_YBHpEeG1MJ6dPNx4oQ" name="save" isAbstract="true"/>
+            <ownedOperation xmi:id="_c6xPMBHpEeG1MJ6dPNx4oQ" name="delete" isAbstract="true"/>
           </packagedElement>
         </packagedElement>
       </packagedElement>
@@ -2226,6 +2266,12 @@
         <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_IrdAUMmBEdqBcN1R6EvWUw?Deployment/Deployment?"/>
       </eAnnotations>
       <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+    </profileApplication>
+    <profileApplication xmi:id="_favxQBHsEeGGJoRsxSPVJg">
+      <eAnnotations xmi:id="_fa3tEBHsEeGGJoRsxSPVJg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://TRANSFORM_JAVA5_PROFILES/JavaTransformProfile.epx#_znahgE3YEd-tPpJR7OP4Bg?JavaTransformation5.0/JavaTransformation50?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://TRANSFORM_JAVA5_PROFILES/JavaTransformProfile.epx#_TQfqgOcaEdi4LptNXGi2fQ?JavaTransformation5.0?"/>
     </profileApplication>
   </uml:Package>
   <Default:URL xmi:id="_XovJwBF5EeGvEZqjuMxwvA" base_Comment="_XelvQBF5EeGvEZqjuMxwvA"/>
