@@ -1751,7 +1751,7 @@
         </eAnnotations>
         <ownedBehavior xmi:type="uml:Interaction" xmi:id="_SBAQYA60EeGODZpGKWNkyg" name="Itinenary Search">
           <eAnnotations xmi:id="_SBCFkA60EeGODZpGKWNkyg" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_SBCFkQ60EeGODZpGKWNkyg" type="Sequence" element="_SBAQYA60EeGODZpGKWNkyg" name="SequenceDiagram1" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_SBCFkQ60EeGODZpGKWNkyg" type="Sequence" element="_SBAQYA60EeGODZpGKWNkyg" name="ItinenarySearchSequenceDiagram" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLShape" xmi:id="_SBCFkg60EeGODZpGKWNkyg" element="_SBAQYA60EeGODZpGKWNkyg" fontName="Cantarell" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_SBCFkw60EeGODZpGKWNkyg" type="interaction_compartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_q29zUBKkEeGo9NWBjnuqVA" element="_q2pqQBKkEeGo9NWBjnuqVA" fontName="Ubuntu" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -2858,17 +2858,42 @@
             </edges>
           </contents>
         </eAnnotations>
-        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_wOiUEA62EeGODZpGKWNkyg" name="Interaction1">
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_wOiUEA62EeGODZpGKWNkyg" name="TicketIssue">
           <eAnnotations xmi:id="_wOkJQA62EeGODZpGKWNkyg" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_wOkJQQ62EeGODZpGKWNkyg" type="Sequence" element="_wOiUEA62EeGODZpGKWNkyg" name="SequenceDiagram1" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_wOkJQQ62EeGODZpGKWNkyg" type="Sequence" element="_wOiUEA62EeGODZpGKWNkyg" name="TicketIssueSequenceDiagram" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLShape" xmi:id="_wOkJQg62EeGODZpGKWNkyg" element="_wOiUEA62EeGODZpGKWNkyg" fontName="Cantarell" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
-                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_wOkJQw62EeGODZpGKWNkyg" type="interaction_compartment"/>
+                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_wOkJQw62EeGODZpGKWNkyg" type="interaction_compartment">
+                  <children xmi:type="umlnotation:UMLShape" xmi:id="_K16dYBK_EeGG58hKH-dS_w" element="_K1qlwBK_EeGG58hKH-dS_w" fontName="Ubuntu" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                    <eAnnotations xmi:id="_K17EcBK_EeGG58hKH-dS_w" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                      <details xmi:id="_K17EcRK_EeGG58hKH-dS_w" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
+                    </eAnnotations>
+                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_K17rgBK_EeGG58hKH-dS_w" type="Stereotype"/>
+                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_K17rgRK_EeGG58hKH-dS_w" type="Name"/>
+                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_K18SkBK_EeGG58hKH-dS_w" type="Parent"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K16dYRK_EeGG58hKH-dS_w" x="450" y="80" width="2803" height="9525"/>
+                  </children>
+                  <children xmi:type="umlnotation:UMLShape" xmi:id="_PkBLQBK_EeGG58hKH-dS_w" element="_PjyhwBK_EeGG58hKH-dS_w" fontName="Ubuntu" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                    <eAnnotations xmi:id="_PkBLQhK_EeGG58hKH-dS_w" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                      <details xmi:id="_PkByUBK_EeGG58hKH-dS_w" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
+                    </eAnnotations>
+                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_PkByURK_EeGG58hKH-dS_w" type="Stereotype"/>
+                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_PkCZYBK_EeGG58hKH-dS_w" type="Name"/>
+                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_PkCZYRK_EeGG58hKH-dS_w" type="Parent"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PkBLQRK_EeGG58hKH-dS_w" x="-2803" y="80" width="4523" height="9525"/>
+                  </children>
+                </children>
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_wOkJRA62EeGODZpGKWNkyg" type="Name"/>
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wOkJRQ62EeGODZpGKWNkyg" x="793" y="793"/>
               </children>
             </contents>
           </eAnnotations>
+          <lifeline xmi:id="_K1qlwBK_EeGG58hKH-dS_w" name="ταμίας" represents="_K1rz4BK_EeGG58hKH-dS_w"/>
+          <lifeline xmi:id="_PjyhwBK_EeGG58hKH-dS_w" name="ticketService" represents="_PjzI0BK_EeGG58hKH-dS_w"/>
         </ownedBehavior>
+        <ownedAttribute xmi:id="_K1rz4BK_EeGG58hKH-dS_w" name="ταμίας">
+          <type xmi:type="uml:Actor" href="Blank%20Use%20Case%20Package.emx#_5icF8ACgEeGgQZLKyEvytg?Use%20Case%20Package/Ταμίας?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_PjzI0BK_EeGG58hKH-dS_w" name="ticketService" type="_8RdrcBHMEeGZIYaoOPN0tw"/>
       </packagedElement>
       <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_x9PScBKkEeGo9NWBjnuqVA" name="ExecutionEvent1"/>
       <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_V87z8BKlEeGo9NWBjnuqVA" name="SendOperationEvent1" operation="_V87M4BKlEeGo9NWBjnuqVA"/>
