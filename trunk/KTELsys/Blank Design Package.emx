@@ -2887,6 +2887,10 @@
               </children>
             </contents>
           </eAnnotations>
+          <ownedConnector xmi:id="_zx-q4hLCEeGG58hKH-dS_w">
+            <end xmi:id="_zx_R8BLCEeGG58hKH-dS_w" role="_K1rz4BK_EeGG58hKH-dS_w"/>
+            <end xmi:id="_zx_R8RLCEeGG58hKH-dS_w" role="_PjzI0BK_EeGG58hKH-dS_w"/>
+          </ownedConnector>
           <lifeline xmi:id="_K1qlwBK_EeGG58hKH-dS_w" name="ταμίας" represents="_K1rz4BK_EeGG58hKH-dS_w"/>
           <lifeline xmi:id="_PjyhwBK_EeGG58hKH-dS_w" name="ticketService" represents="_PjzI0BK_EeGG58hKH-dS_w"/>
         </ownedBehavior>
