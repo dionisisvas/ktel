@@ -842,7 +842,7 @@
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ho6TSQ6sEeGODZpGKWNkyg" value="1"/>
           </ownedAttribute>
           <ownedOperation xmi:id="_ho6TSg6sEeGODZpGKWNkyg" name="setRoute">
-            <ownedParameter xmi:id="_ho6TSw6sEeGODZpGKWNkyg" name="diadromi" type="_ho5sng6sEeGODZpGKWNkyg"/>
+            <ownedParameter xmi:id="_ho6TSw6sEeGODZpGKWNkyg" name="route" type="_ho5sng6sEeGODZpGKWNkyg"/>
           </ownedOperation>
           <ownedOperation xmi:id="_ho6TTA6sEeGODZpGKWNkyg" name="setTime">
             <ownedParameter xmi:id="_ho6TTQ6sEeGODZpGKWNkyg" name="times">
