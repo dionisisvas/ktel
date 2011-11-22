@@ -1334,7 +1334,6 @@
           <packagedElement xmi:type="uml:Interface" xmi:id="_zP8ZEBRoEeGoPKHx6FCefg" name="ItinenaryAdministrationView">
             <ownedOperation xmi:id="_loHCsBRuEeGoPKHx6FCefg" name="setAvailableRoutes"/>
             <ownedOperation xmi:id="_V5RV0BRvEeGoPKHx6FCefg" name="refresh"/>
-            <ownedOperation xmi:id="_JeTQoBR0EeGoPKHx6FCefg" name="refresh"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_nt3t8BRxEeGoPKHx6FCefg" name="VehicleForm"/>
           <packagedElement xmi:type="uml:Interface" xmi:id="_rbsDgBRxEeGoPKHx6FCefg" name="VehicleView">
@@ -4499,8 +4498,8 @@
           <message xmi:id="_9vSExRRzEeGoPKHx6FCefg" name="setDate" messageSort="reply" receiveEvent="_9vSExhRzEeGoPKHx6FCefg" sendEvent="_9vSExBRzEeGoPKHx6FCefg" connector="_5iKkFRRzEeGoPKHx6FCefg"/>
           <message xmi:id="__WGRkBRzEeGoPKHx6FCefg" name="setTime" receiveEvent="__WGRkhRzEeGoPKHx6FCefg" sendEvent="__WGRkRRzEeGoPKHx6FCefg" connector="_5iKkFRRzEeGoPKHx6FCefg"/>
           <message xmi:id="__WGRlRRzEeGoPKHx6FCefg" name="setTime" messageSort="reply" receiveEvent="__WGRlhRzEeGoPKHx6FCefg" sendEvent="__WGRlBRzEeGoPKHx6FCefg" connector="_5iKkFRRzEeGoPKHx6FCefg"/>
-          <message xmi:id="_IhzMIBR0EeGoPKHx6FCefg" name="refresh" receiveEvent="_IhzMIhR0EeGoPKHx6FCefg" sendEvent="_IhzMIRR0EeGoPKHx6FCefg" connector="_IhzMJxR0EeGoPKHx6FCefg"/>
-          <message xmi:id="_IhzMJRR0EeGoPKHx6FCefg" name="refresh" messageSort="reply" receiveEvent="_IhzMJhR0EeGoPKHx6FCefg" sendEvent="_IhzMJBR0EeGoPKHx6FCefg" connector="_IhzMJxR0EeGoPKHx6FCefg"/>
+          <message xmi:id="_IhzMIBR0EeGoPKHx6FCefg" name="\Unspecified\" receiveEvent="_IhzMIhR0EeGoPKHx6FCefg" sendEvent="_IhzMIRR0EeGoPKHx6FCefg" connector="_IhzMJxR0EeGoPKHx6FCefg"/>
+          <message xmi:id="_IhzMJRR0EeGoPKHx6FCefg" name="\Unspecified\" messageSort="reply" receiveEvent="_IhzMJhR0EeGoPKHx6FCefg" sendEvent="_IhzMJBR0EeGoPKHx6FCefg" connector="_IhzMJxR0EeGoPKHx6FCefg"/>
         </ownedBehavior>
         <ownedAttribute xmi:id="_XUlE8RRpEeGoPKHx6FCefg" name="itinenaryAdministrationForm" type="_tePgMBRoEeGoPKHx6FCefg"/>
         <ownedAttribute xmi:id="_a7_QgRRpEeGoPKHx6FCefg" name="itinenaryAdministratonService" type="_-84NQA61EeGODZpGKWNkyg"/>
@@ -5901,8 +5900,8 @@
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_61w58hRzEeGoPKHx6FCefg" name="ReceiveOperationEvent46" operation="_61w58BRzEeGoPKHx6FCefg"/>
       <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_AJp1cRR0EeGoPKHx6FCefg" name="SendOperationEvent49" operation="_AJp1cBR0EeGoPKHx6FCefg"/>
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_AJp1chR0EeGoPKHx6FCefg" name="ReceiveOperationEvent47" operation="_AJp1cBR0EeGoPKHx6FCefg"/>
-      <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_JeTQoRR0EeGoPKHx6FCefg" name="SendOperationEvent50" operation="_JeTQoBR0EeGoPKHx6FCefg"/>
-      <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_JeTQohR0EeGoPKHx6FCefg" name="ReceiveOperationEvent48" operation="_JeTQoBR0EeGoPKHx6FCefg"/>
+      <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_JeTQoRR0EeGoPKHx6FCefg" name="SendOperationEvent50"/>
+      <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_JeTQohR0EeGoPKHx6FCefg" name="ReceiveOperationEvent48"/>
       <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_XANWcRR0EeGoPKHx6FCefg" name="SendOperationEvent51" operation="_XANWcBR0EeGoPKHx6FCefg"/>
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_XANWchR0EeGoPKHx6FCefg" name="ReceiveOperationEvent49" operation="_XANWcBR0EeGoPKHx6FCefg"/>
       <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_iUQdkRR0EeGoPKHx6FCefg" name="SendOperationEvent52" operation="_iUQdkBR0EeGoPKHx6FCefg"/>
