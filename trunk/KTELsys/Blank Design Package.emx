@@ -4237,7 +4237,7 @@
                     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hBqpwRRzEeGoPKHx6FCefg" x="-1" y="344"/>
                   </children>
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_T3MXEBR0EeGoPKHx6FCefg" element="_T2AEQxR0EeGoPKHx6FCefg" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T3MXERR0EeGoPKHx6FCefg" x="-1" y="1453" height="1137"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T3MXERR0EeGoPKHx6FCefg" x="-1" y="1453" height="264"/>
                   </children>
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_ff8i4BR0EeGoPKHx6FCefg" element="_feApMxR0EeGoPKHx6FCefg" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ff8i4RR0EeGoPKHx6FCefg" x="-1" y="1453" height="1453"/>
@@ -4670,7 +4670,7 @@
                   <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nU-6YRbCEeGG34ezazj4IA" y="-317"/>
                 </children>
                 <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nU9FMRbCEeGG34ezazj4IA" points="[0, 0, -190, 0]$[190, 0, 0, 0]"/>
-                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nWDRYBbCEeGG34ezazj4IA" id="120:397"/>
+                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nWDRYBbCEeGG34ezazj4IA" id="120:926"/>
                 <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nWD4cBbCEeGG34ezazj4IA" id="170:0"/>
               </edges>
             </contents>
@@ -4945,10 +4945,6 @@
             <end xmi:id="_HuLoyBRyEeGoPKHx6FCefg" role="_2UeK8RRxEeGoPKHx6FCefg"/>
             <end xmi:id="_HuLoyRRyEeGoPKHx6FCefg" role="_a7_QgRRpEeGoPKHx6FCefg"/>
           </ownedConnector>
-          <ownedConnector xmi:id="_Xk8tJxRyEeGoPKHx6FCefg">
-            <end xmi:id="_Xk8tKBRyEeGoPKHx6FCefg" role="_t-3K4RRxEeGoPKHx6FCefg"/>
-            <end xmi:id="_Xk8tKRRyEeGoPKHx6FCefg" role="_a7_QgRRpEeGoPKHx6FCefg"/>
-          </ownedConnector>
           <ownedConnector xmi:id="_OA-bgBbuEeG10r8hJi3r_w">
             <end xmi:id="_OA-bgRbuEeG10r8hJi3r_w" role="_a7_QgRRpEeGoPKHx6FCefg"/>
             <end xmi:id="_OA-bghbuEeG10r8hJi3r_w" role="_TvDBURRsEeGoPKHx6FCefg"/>
@@ -5093,7 +5089,7 @@
                   <layoutConstraint xmi:type="notation:Bounds" xmi:id="__Wi9gxRzEeGoPKHx6FCefg" y="-317"/>
                 </children>
                 <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__Wi9gRRzEeGoPKHx6FCefg" points="[0, 0, -407, 0]$[407, 0, 0, 0]"/>
-                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__WsugBRzEeGoPKHx6FCefg" id="2704:450"/>
+                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__WsugBRzEeGoPKHx6FCefg" id="2704:1058"/>
                 <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__WsugRRzEeGoPKHx6FCefg" id="2736:0"/>
               </edges>
               <edges xmi:type="umlnotation:UMLConnector" xmi:id="__W14chRzEeGoPKHx6FCefg" element="__WGRlRRzEeGoPKHx6FCefg" source="_2uwoUBRzEeGoPKHx6FCefg" target="_iXplQBRzEeGoPKHx6FCefg" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -5166,7 +5162,6 @@
         <ownedAttribute xmi:id="_TvDBURRsEeGoPKHx6FCefg" name="itinenaryAdministrationView" type="_zP8ZEBRoEeGoPKHx6FCefg"/>
         <ownedAttribute xmi:id="_bBJ9ARRsEeGoPKHx6FCefg" name="dAOFactory" type="_i3jWoBA8EeGUjr05PXmftg"/>
         <ownedAttribute xmi:id="_UzBxYRRtEeGoPKHx6FCefg" name="routeDAO" type="_TOSoMBRtEeGoPKHx6FCefg"/>
-        <ownedAttribute xmi:id="_t-3K4RRxEeGoPKHx6FCefg" name="vehicleView" type="_rbsDgBRxEeGoPKHx6FCefg"/>
         <ownedAttribute xmi:id="_2UeK8RRxEeGoPKHx6FCefg" name="vehicleDAO" type="_03yKgBRxEeGoPKHx6FCefg"/>
         <ownedAttribute xmi:id="_7gwpoRRxEeGoPKHx6FCefg" name="currentItinenary" type="_G2ClMArBEeGr4JdFygsuTA"/>
         <ownedAttribute xmi:id="_wNHDwRR0EeGoPKHx6FCefg" name="itinenaryDAO" type="_s3e-8BBGEeG3SNomViIQOQ"/>
