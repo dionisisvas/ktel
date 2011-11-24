@@ -649,6 +649,11 @@
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_84lPEBF6EeGvEZqjuMxwvA" value="*"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_84koABF6EeGvEZqjuMxwvA" value="1"/>
           </ownedAttribute>
+          <ownedAttribute xmi:id="_WUxm4BawEeGIsoY_Jn4msw" name="seatReservationView" visibility="private" association="_WUtVcBawEeGIsoY_Jn4msw">
+            <type xmi:type="uml:Interface" href="Blank%20Design%20Package.emx#_PF0DoBQwEeGj-s_23qUHUA?Design%20Model/org/project/ui/SeatReservationView?"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WU1RQBawEeGIsoY_Jn4msw" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WU0qMBawEeGIsoY_Jn4msw" value="1"/>
+          </ownedAttribute>
           <ownedOperation xmi:id="_ho5siw6sEeGODZpGKWNkyg" name="findItinerary">
             <ownedParameter xmi:id="_ho5sjA6sEeGODZpGKWNkyg" name="stasiAn" type="_ho6TEg6sEeGODZpGKWNkyg"/>
             <ownedParameter xmi:id="_ho5sjQ6sEeGODZpGKWNkyg" name="stasiAf" type="_ho6TEg6sEeGODZpGKWNkyg"/>
@@ -816,6 +821,10 @@
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ho6TbQ6sEeGODZpGKWNkyg" value="*"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ho6Tbg6sEeGODZpGKWNkyg" value="1"/>
           </ownedEnd>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_WUtVcBawEeGIsoY_Jn4msw">
+          <memberEnd href="#_WUxm4BawEeGIsoY_Jn4msw?Analysis%20Model/Analysis%20Classes/entities/Itinenary/seatReservationView?"/>
+          <memberEnd href="Blank%20Design%20Package.emx#_WU2fYBawEeGIsoY_Jn4msw?Design%20Model/org/project/ui/SeatReservationView/itinenary?"/>
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_if31QBKTEeGo9NWBjnuqVA" name="controllers">
