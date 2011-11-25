@@ -511,8 +511,6 @@
             </ownedOperation>
           </packagedElement>
           <packagedElement xmi:type="uml:Enumeration" xmi:id="_pgy3kArCEeGr4JdFygsuTA" name="SeatState">
-            <ownedOperation xmi:id="_pgy3kQrCEeGr4JdFygsuTA" name="Operation1"/>
-            <ownedOperation xmi:id="_pgy3kgrCEeGr4JdFygsuTA" name="Operation2"/>
             <ownedLiteral xmi:id="_pgy3kwrCEeGr4JdFygsuTA" name="available" classifier="_pgy3kArCEeGr4JdFygsuTA"/>
             <ownedLiteral xmi:id="_pgy3lArCEeGr4JdFygsuTA" name="reserved" classifier="_pgy3kArCEeGr4JdFygsuTA"/>
             <ownedLiteral xmi:id="_pgy3lQrCEeGr4JdFygsuTA" name="booked" classifier="_pgy3kArCEeGr4JdFygsuTA"/>
