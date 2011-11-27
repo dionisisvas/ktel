@@ -316,7 +316,7 @@
                 </children>
                 <children xmi:type="notation:DecorationNode" xmi:id="_LEe_5wujEeGapfmHcz55IQ" type="ToRoleLabel" element="_LBzfUgujEeGapfmHcz55IQ">
                   <children xmi:type="notation:BasicDecorationNode" xmi:id="_LEe_6QujEeGapfmHcz55IQ" type="ToRole"/>
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_LEe_6AujEeGapfmHcz55IQ" x="1196" y="-997"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_LEe_6AujEeGapfmHcz55IQ" x="806" y="-573"/>
                 </children>
                 <children xmi:type="notation:DecorationNode" xmi:id="_LEe_6gujEeGapfmHcz55IQ" type="FromMultiplicityLabel" element="_LBpuUQujEeGapfmHcz55IQ">
                   <children xmi:type="notation:BasicDecorationNode" xmi:id="_LEe_7AujEeGapfmHcz55IQ" type="FromMultiplicity"/>
@@ -1367,10 +1367,10 @@
             <ownedOperation xmi:id="_y961wBQ4EeGj-s_23qUHUA" name="getItinenaryDAO" isAbstract="true">
               <ownedParameter xmi:id="_9lfSgBUWEeGUpM8Vr6PBtw" name="ItinenaryDAO" type="_s3e-8BBGEeG3SNomViIQOQ" direction="return"/>
             </ownedOperation>
-            <ownedOperation xmi:id="_tKx7ABbAEeGaZ-C1IbpUxA" name="getRouteDAO">
+            <ownedOperation xmi:id="_tKx7ABbAEeGaZ-C1IbpUxA" name="getRouteDAO" isAbstract="true">
               <ownedParameter xmi:id="_z-XusBbAEeGaZ-C1IbpUxA" name="route" type="_TOSoMBRtEeGoPKHx6FCefg" direction="return"/>
             </ownedOperation>
-            <ownedOperation xmi:id="_oyD8YBbCEeGG34ezazj4IA" name="getVehicleDAO">
+            <ownedOperation xmi:id="_oyD8YBbCEeGG34ezazj4IA" name="getVehicleDAO" isAbstract="true">
               <ownedParameter xmi:id="_sWwyMBbCEeGG34ezazj4IA" name="vehicleDAO" type="_03yKgBRxEeGoPKHx6FCefg" direction="return"/>
             </ownedOperation>
           </packagedElement>
@@ -1594,7 +1594,7 @@
               <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7lGkYBdhEeGtfZpeEgvSIQ" value="1"/>
               <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7lF9UBdhEeGtfZpeEgvSIQ"/>
             </ownedAttribute>
-            <ownedOperation xmi:id="_3oylMBd0EeG7upVb31Vg6A" name="\Εισαγωγή Κριτηρίων Αναζήτησης\"/>
+            <ownedOperation xmi:id="_3oylMBd0EeG7upVb31Vg6A" name="searcCriteria"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Interface" xmi:id="_8kK1IBR2EeGHfq1RAZLnMw" name="ItinenariesView" clientDependency="_9kYU8BR2EeGHfq1RAZLnMw _eXV0sBR3EeGHfq1RAZLnMw _g01wsBbOEeGQPdCOk4DS8A">
             <ownedOperation xmi:id="_QICHQBSAEeGHfq1RAZLnMw" name="refresh"/>
