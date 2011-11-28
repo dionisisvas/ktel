@@ -704,21 +704,12 @@
               <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RzYyoxbtEeG10r8hJi3r_w" value="1"/>
               <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RzYyohbtEeG10r8hJi3r_w"/>
             </ownedAttribute>
-            <ownedOperation xmi:id="_rbdIEBRzEeGoPKHx6FCefg" name="insertDateTime">
-              <ownedParameter xmi:id="_M7fwABUTEeGUpM8Vr6PBtw" name="date">
-                <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q51ibwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/util/Date?"/>
-              </ownedParameter>
-              <ownedParameter xmi:id="_Tj_G8BUTEeGUpM8Vr6PBtw" name="time">
-                <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6BugQddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/sql/Timestamp?"/>
-              </ownedParameter>
-            </ownedOperation>
+            <ownedOperation xmi:id="_rbdIEBRzEeGoPKHx6FCefg" name="insertDateTime"/>
             <ownedOperation xmi:id="_uxa2sBUVEeGUpM8Vr6PBtw" name="initialize">
               <ownedParameter xmi:id="_xfkfABUVEeGUpM8Vr6PBtw" name="view"/>
               <ownedParameter xmi:id="_m4B_MBlgEeGg5KTWJZj-nw" name="selectedRoute" type="_G2GPkArBEeGr4JdFygsuTA" direction="return"/>
             </ownedOperation>
-            <ownedOperation xmi:id="_iUQdkBR0EeGoPKHx6FCefg" name="saveCurrentItinenary">
-              <ownedParameter xmi:id="_kKu20BbAEeGaZ-C1IbpUxA" name="currentItinenary" type="_G2ClMArBEeGr4JdFygsuTA"/>
-            </ownedOperation>
+            <ownedOperation xmi:id="_iUQdkBR0EeGoPKHx6FCefg" name="saveCurrentItinenary"/>
             <ownedOperation xmi:id="_r0vKkBa_EeGr577N1rfzBA" name="setVehicle">
               <ownedParameter xmi:id="_ZpSxABbDEeGG34ezazj4IA" name="view" type="_rbsDgBRxEeGoPKHx6FCefg"/>
             </ownedOperation>
