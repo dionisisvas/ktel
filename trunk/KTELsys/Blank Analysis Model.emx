@@ -747,7 +747,7 @@
           <ownedOperation xmi:id="__1ynoBRaEeGb9JKa_eM6kQ" name="setName"/>
           <ownedOperation xmi:id="_UJDsgBRbEeGb9JKa_eM6kQ" name="getInfo"/>
         </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_ho5slw6sEeGODZpGKWNkyg" name="Vehicle">
+        <packagedElement xmi:type="uml:Class" xmi:id="_ho5slw6sEeGODZpGKWNkyg" name="Vehicle" clientDependency="_W_pDMBmtEeGTn9MEple87g">
           <ownedAttribute xmi:id="_ho5smA6sEeGODZpGKWNkyg" name="licensePlateNum" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </ownedAttribute>
@@ -825,6 +825,9 @@
         <packagedElement xmi:type="uml:Association" xmi:id="_WUtVcBawEeGIsoY_Jn4msw">
           <memberEnd href="#_WUxm4BawEeGIsoY_Jn4msw?Analysis%20Model/Analysis%20Classes/entities/Itinenary/seatReservationView?"/>
           <memberEnd href="Blank%20Design%20Package.emx#_WU2fYBawEeGIsoY_Jn4msw?Design%20Model/org/project/ui/SeatReservationView/itinenary?"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_W_pDMBmtEeGTn9MEple87g" client="_ho5slw6sEeGODZpGKWNkyg">
+          <supplier xmi:type="uml:Class" href="Blank%20Design%20Package.emx#_G2FBcArBEeGr4JdFygsuTA?Design%20Model/org/project/domain/Vehicle?"/>
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_if31QBKTEeGo9NWBjnuqVA" name="controllers">
